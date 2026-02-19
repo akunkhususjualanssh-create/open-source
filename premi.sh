@@ -37,8 +37,8 @@ clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e "  FAST VPN TUNELING ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green}Hanz tuneling® ${NC}${YELLOW}(${NC} ${green} Yass vpn Tunneling ${NC}${YELLOW})${NC}"
-echo -e " © Recode By My Self HANZ TUNELING${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "  Auther : ${green}ghani tuneling® ${NC}${YELLOW}(${NC} ${green} abdul ghani vpn Tunneling ${NC}${YELLOW})${NC}"
+echo -e " © Recode By My Self GHANI TUNELING${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 2
@@ -98,9 +98,9 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/Rehanzcraker/Sc-hanzvip/main/izinv2 | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/akunkhususjualanssh-create/open-source/main/izinv2 | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/Rehanzcraker/Sc-hanzvip/main/izinv2 | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/akunkhususjualanssh-create/open-source/main/izinv2 | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
@@ -124,7 +124,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://raw.githubusercontent.com/Rehanzcraker/Sc-hanzvip/main/izinv2 | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/akunkhususjualanssh-create/open-source/main/izinv2 | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -133,7 +133,7 @@ fi
 echo -e "\e[32mloading...\e[0m"
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/Rehanzcraker/Sc-hanzvip/main/"
+    REPO="https://raw.githubusercontent.com/akunkhususjualanssh-create/open-source/main/"
 
 ####
 start=$(date +%s)
@@ -312,8 +312,8 @@ clear
 clear
 #GANTI PASSWORD DEFAULT
 restart_system() {
-    USRSC=$(wget -qO- https://raw.githubusercontent.com/Rehanzcraker/Sc-hanzvip/main/izinv2 | grep $ipsaya | awk '{print $2}')
-    EXPSC=$(wget -qO- https://raw.githubusercontent.com/Rehanzcraker/Sc-hanzvip/main/izinv2 | grep $ipsaya | awk '{print $3}')
+    USRSC=$(wget -qO- https://raw.githubusercontent.com/akunkhususjualanssh-create/open-source/main/izinv2 | grep $ipsaya | awk '{print $2}')
+    EXPSC=$(wget -qO- https://raw.githubusercontent.com/akunkhususjualanssh-create/open-source/main/izinv2 | grep $ipsaya | awk '{print $3}')
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
